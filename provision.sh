@@ -45,6 +45,6 @@ sudo /opt/vertica/sbin/install_vertica --hosts localhost --dba-user-password dba
 # Uncomment this if you want the vertica console gui.  You can also
 # run it manually later. Since this is a single node its use is
 # limited.
-#vertica_agent.sh
+#setup_vertica_console.sh
 
 su - dbadmin -c '(cd /vagrant; ./create_database.sh)'
