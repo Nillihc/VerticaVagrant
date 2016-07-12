@@ -1,7 +1,7 @@
 # What?
 
 [Vertica](https://my.vertica.com/)! In a
-[Vagrant](https://www.vagrantup.com/) VM.
+[Vagrant](https://www.vagrantup.com/) VM!
 
 It can take a while to figure out how to get everything to run and all
 you wanted was to run some queries. For now the Vertica VM is
@@ -10,18 +10,28 @@ unavailable for download and who doesn't love Vagrant?
 
 # How?
 
-  1. Clone this repository.
+## Prerequisites
 
-  2. Download the Vertica RPMs from the website (registration
-     required). Put it in the same directory as Vagrantfile.
+   1. Vagrant must be installed. This was last tested with Vagrant
+      1.8.4.
 
-  3. `cp config.sh.sample config.sh`
+   2. The VagrantFile uses the VirtualBox provider to add a disk. This
+      means as it stands it only works with VirtualBox.
 
-  4. Edit config.sh to set the name of your Vertica RPM.
+## Steps
 
-  5. `vagrant up`
+   1. Clone this repository.
 
-  6. `vagrant ssh`
+   2. Download the Vertica RPMs from the website (registration
+      required). Put it in the same directory as Vagrantfile.
+
+   3. `cp config.sh.sample config.sh`
+
+   4. Edit config.sh to set the name of your Vertica RPM.
+
+   5. `vagrant up`
+
+   6. `vagrant ssh`
 
 
 # Then what?
