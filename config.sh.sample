@@ -1,0 +1,4 @@
+DATABASENAME=mydatabase
+DATABASEPASSWORD=mydatA6asepa55w0rd
+
+VERTICA_RPM=vertica-7.2.3-0.x86_64.RHEL6.rpm
